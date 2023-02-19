@@ -1,0 +1,11 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    background: #FF8E9E;
+    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    background: -webkit-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+  }
