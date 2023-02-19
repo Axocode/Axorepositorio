@@ -1,11 +1,74 @@
+html { background-color: #000; } 
+
+body {
+    min-height: 80vw;
+    max-width: 5000px;
+    background-color: papayawhip; 
+    margin: 0 auto;
+}
+
+
 .header {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    background: #1abc9c;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     background: #FF8E9E;
     background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
     background: -webkit-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
     background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
   }
+
+  nav {
+    background: #FF8E9E;
+    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    background: -webkit-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 76px;
+    text-decoration: none;
+  }
+  
+  a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+
+.cuadrito{
+  margin: 50PX;
+  padding: 5px;
+  width: 1800PX;
+  height: 1200PX;
+  background: rgb(184, 165, 165);
+  opacity: 20%;
+}
