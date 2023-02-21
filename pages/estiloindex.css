@@ -1,7 +1,7 @@
 html { background-color: #000; } 
 
 body {
-    min-height: 90vw;
+    min-height: 10vw;
     max-width: 5000px;
     background-color: papayawhip; 
     margin: 0 auto;
@@ -72,42 +72,71 @@ body {
   }
 
 .cuadrito{
-  margin: 50PX;
-  padding: 10px;
-  background-color: rgba(193, 202, 214, .3);
-  width: 1730px;
-  height: 1325px;
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  text-align: center;
+      width: 100%; /* puedes ajustar el ancho a tus necesidades */
+			height: 500px; /* puedes ajustar la altura a tus necesidades */
+			overflow: hidden; /* para ocultar cualquier parte de la imagen que sobresalga del contenedor */
+			display: flex;
+			justify-content: center;
+			align-items: center;
 }
 
 .cuadrito img{
-  width:"1730";
-  height:"600";
+  width: 100%;
+  height:auto;
   object-fit: cover;
-  border-radius: 20px;
-  opacity: .75;
 }
 
-
-.centrado{
+.izq{
   position: absolute;
-  top: 10%;
-  left: 50%;
+  top: 40%;
+  left: 25%;
   transform: translate(-50%, -50%);
 }
 
-.centrado h2{
-  font-size: 100;
+.der{
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.izq h2{
+  font-size: 60;
   color: #ffffff;
 }
 
-.centrar a{
+.der h2{
+  font-size: 60;
+  color: #ffffff;
+}
+
+.izq-a{
   position: absolute;
-  top: 25%;
-  left: 50%;
+  top: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
+}
+
+.der-a{
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.rect{
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.rect a{
+  color: #F9B5D0;
+  top: 15%;
+  left: 40%;
 }
