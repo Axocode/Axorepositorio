@@ -1,9 +1,9 @@
-html { background-color: #000; } 
+html { background-color: #ab8ac7; } 
 
 body {
     min-height: 10vw;
-    max-width: 5000px;
-    background-color: papayawhip; 
+    max-width: 100%;
+    background-color: #ab8ac7; 
     margin: 0 auto;
 }
 
@@ -13,24 +13,33 @@ body {
 
 .header {
     padding: 5px;
+    height: 250px;
+    width: 1861px;
     text-align: center;
     color: white;
-    font-size: 25px;
-    background: #FF8E9E;
-    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
-    background: -webkit-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
-    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    font-size: 15px;
+    background: #ab8ac7;
   }
 
+.header img{
+  object-fit: cover;
+  width:350px;
+  height:190px;
+  top: 20%;
+}
+.head-logo{
+  align-items: start;
+  width:5%;
+  height:5%;
+
+}
+
   h1{
-    color: #000000; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px;
+    color: #ab8ac7; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px;
   }
 
   nav {
-    background: #FF8E9E;
-    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
-    background: -webkit-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
-    background: -moz-linear-gradient(left, #FF8E9E 0%, #F9B5D0 100%);
+    background: #ddb4ff;
   }
   
   ul {
@@ -44,16 +53,17 @@ body {
     float: left;
   }
   
-  a {
+  #menu a {
     display: block;
     position: relative;
     color: white;
     text-align: center;
     font-size: 25px;
-    padding: 14px 76px;
+    padding: 14px 113px;
     text-decoration: none;
   }
   
+
   a::after {
     content: "";
     display: block;
@@ -72,9 +82,9 @@ body {
   }
 
 .cuadrito{
-      width: 100%; /* puedes ajustar el ancho a tus necesidades */
-			height: 500px; /* puedes ajustar la altura a tus necesidades */
-			overflow: hidden; /* para ocultar cualquier parte de la imagen que sobresalga del contenedor */
+      width: 100%; 
+			height: 500px; 
+			overflow: hidden;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -95,7 +105,7 @@ body {
 
 .der{
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 80%;
   transform: translate(-50%, -50%);
 }
@@ -119,7 +129,7 @@ body {
 
 .der-a{
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 75%;
   transform: translate(-50%, -50%);
 }
@@ -136,7 +146,23 @@ body {
 }
 
 .rect a{
-  color: #F9B5D0;
-  top: 15%;
-  left: 40%;
+  color: #000000;
+  display: block;
+    position: relative;
+    text-align: right;
+    font-size: 25px;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.cuadradito {
+  position: absolute;
+  z-index: -12;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 10px;
 }
