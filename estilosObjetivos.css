@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.nombre img{
+    object-fit: contain;
+    width:190px;
+    height:30%;
+  }
+
+
 body{
     font-family: 'open sans';
     position: absolute;
@@ -198,7 +205,7 @@ header{
 
 header .introduccion-header{
     display: flex;
-    height: 430px;
+    height: 330px;
     width: 100%;
     align-items: center;
     justify-content: center;
