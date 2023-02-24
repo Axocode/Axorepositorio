@@ -16,6 +16,7 @@ body{
     position: absolute;
     width: 100%;
     padding-bottom: 3rem;
+    min-height: 100vh;
 }
 
 .capsula{
@@ -273,53 +274,63 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+  }
 
-.iconos-redes .footer-menu-container{
+  .iconos-redes,.footer-menu-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-}
+  }
 
-.logo{
+  .logo{
     height: 50px;
     margin-bottom: 0.5rem;
     left: 10%;
-}
+  }
 
-.social-icon{
+  .social-icon{
     height: 50px;
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(../img/facelogo.png);
+    background-image: url(styles/facelogo.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
     margin: 1rem;
   }
 
-.social-icon:hover{
+  .social-icon:hover{
     background-color: #121212;
     filter: invert(1);
-}
+  }
 
-.social-icon:nth-of-type(2){
-    background-image: url(../img/iglogo.png);
-}
+  .social-icon:nth-of-type(2){
+    background-image: url(styles/iglogo.png);
+  }
 
-.social-icon:nth-of-type(3){
-    background-image: url(../img/gitlogo.png);
-}
+  .social-icon:nth-of-type(3){
+    background-image: url(styles/gitlogo.png);
+  }
 
-.social-icon:nth-of-type(4){
-    background-image: url(../img/twitterlogo.png);
-}
+  .social-icon:nth-of-type(4){
+    background-image: url(styles/twitterlogo.png);
+  }
 
-.footer-menu-container{
+  .footer-menu-container{
     list-style-type: none;
     color: #f2f2f2;
     font-size: 18px;
-}
+  }
+
+  .menu-item{
+    margin: 1rem 1.5rem;
+    cursor:pointer;
+    opacity: 0.6;
+  }
+
+  .menu-item:hover{
+    opacity: 1;
+  }
