@@ -191,3 +191,75 @@
     background: #1b1b1b8e;
     border-radius: 8%;
   }
+
+  footer{
+    width: 84%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo{
+    height: 50px;
+    margin-bottom: 0.5rem;
+    left: 10%;
+  }
+
+  .iconos-redes,.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(facelogo.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+
+  .social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+  }
+
+  .social-icon:nth-of-type(2){
+    background-image: url(iglogo.png);
+  }
+
+  .social-icon:nth-of-type(3){
+    background-image: url(gitlogo.png);
+  }
+
+  .social-icon:nth-of-type(4){
+    background-image: url(twitterlogo.png);
+  }
+
+  .footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+  }
+
+  .menu-item{
+    margin: 1rem 1.5rem;
+    cursor:pointer;
+    opacity: 0.6;
+  }
+
+  .menu-item:hover{
+    opacity: 1;
+  }
