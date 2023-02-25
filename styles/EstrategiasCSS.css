@@ -207,7 +207,7 @@ header{
 
 header .introduccion-header{
     display: flex;
-    height: 330px;
+    height: 230px;
     width: 100%;
     align-items: center;
     justify-content: center;
