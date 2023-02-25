@@ -187,11 +187,11 @@ header{
     width: 100%;
     height: 500px;
      
-    background: #C33764;  
+    background: #000000;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1d25718f, #c3376383), url(../img/portada.jpg) ; 
+    background: -webkit-linear-gradient(to right, #0000008f, #00000083), url(../img/portada.jpg) ; 
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1d25718f, #c3376383), url(../img/portada.jpg) ; 
+    background: linear-gradient(to right, #0000008f, #00000083), url(../img/portada.jpg) ; 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     background-attachment: fixed;
@@ -202,6 +202,7 @@ header{
     position: absolute;
     bottom: 0;
     width: 100%;
+   
 }
 
 header .introduccion-header{
@@ -276,6 +277,12 @@ footer{
     flex-direction: column;
   }
 
+  .logo{
+    height: 50px;
+    margin-bottom: 0.5rem;
+    left: 10%;
+  }
+
   .iconos-redes,.footer-menu-container{
     display: flex;
     justify-content: center;
@@ -284,18 +291,12 @@ footer{
     margin-bottom: 1rem;
   }
 
-  .logo{
-    height: 50px;
-    margin-bottom: 0.5rem;
-    left: 10%;
-  }
-
   .social-icon{
     height: 50px;
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(styles/facelogo.png);
+    background-image: url(facelogo.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -308,15 +309,15 @@ footer{
   }
 
   .social-icon:nth-of-type(2){
-    background-image: url(styles/iglogo.png);
+    background-image: url(iglogo.png);
   }
 
   .social-icon:nth-of-type(3){
-    background-image: url(styles/gitlogo.png);
+    background-image: url(gitlogo.png);
   }
 
   .social-icon:nth-of-type(4){
-    background-image: url(styles/twitterlogo.png);
+    background-image: url(twitterlogo.png);
   }
 
   .footer-menu-container{
