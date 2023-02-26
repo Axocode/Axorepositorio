@@ -60,7 +60,7 @@
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: #fff;
+    background-color: #ec46c8;
     transition: width 0.3s ease;
   }
   
@@ -103,7 +103,7 @@
       right: 0px;
       height: 92vh;
       top: 8vh;
-      background-color: #b189af;
+      background-color: #c0bac0;
       display: flex;
       flex-direction: column;
       align-items: center;
