@@ -225,15 +225,15 @@
   }
   
   .imagen-codigo{ 
-    float: right;
+    float: inline-start;
     margin: auto;
-    width: 30%;
+    width: 60%;
     padding: 100px;
   }
   .imagen-codigo2{ 
-    float: left;
+    float: inline-end;
     margin: auto;
-    width: 30%;
+    width: 55%;
     padding: 100px;
   }
   .unificar2,.imagen-codigo2,.texto-empresa{ 
