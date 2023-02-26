@@ -36,7 +36,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 1px;
     background-color: #000000;
     color: #fff;
 }
@@ -331,4 +331,12 @@ footer{
 
   .menu-item:hover{
     opacity: 1;
+  }
+  body::-webkit-scrollbar{
+    width: 5px;
+    background:#000000 ;
+  }
+  body::-webkit-scrollbar-thumb{
+    background:#c07bc9;
+    border-radius: 5px;
   }
