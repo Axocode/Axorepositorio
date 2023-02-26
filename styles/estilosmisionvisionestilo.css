@@ -184,13 +184,12 @@ a:hover::after {
 
 header{
   width: 100%;
-  height: 500px;
+  height: 480px;
    
-  background: #000000;  
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0000008f, #00000083), url(../img/portada.jpg) ; 
+  background: #f4c4f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0000008f, #00000083), url(../img/portada.jpg) ; 
+  background: linear-gradient(to right, #fc67fa, #f4c4f3); 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   background-attachment: fixed;
@@ -206,7 +205,7 @@ header{
 
 header .introduccion-header{
   display: flex;
-  height: 150px;
+  height: 300px;
   width: 100%;
   align-items: center;
   justify-content: center;
