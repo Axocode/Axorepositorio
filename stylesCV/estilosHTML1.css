@@ -1,0 +1,101 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.9;
+    color: rgb(235, 235, 235);
+    
+
+}
+.titmenu{
+    text-align: center;
+    background-color: #000000;
+    color:white;
+    padding: 40px;
+
+}
+.todillo{
+
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    margin: 30px;
+    padding: 6rem;
+    font-size: x-large;
+
+}
+.main{
+    margin-top: 10rem;
+}
+
+.encabezado{
+    
+    
+    height: 60px;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);    align-items: center;
+    padding: 2rem 2rem ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    align-content: center;
+    
+    
+    
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.loggit{
+    
+    text-align:center;
+    height: 150px;
+    margin-left: 250px;
+    
+}
+nav ul {
+    background-color: #434343;
+    width: 98%;
+    height: 80px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    width: 120px;
+}
+
+.ejemplos{
+    object-fit: cover;
+    border-width: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.namefunciones{
+    padding-top: 10rem;
+    font-size: x-large;
+    text-align: center;
+}
+.contenido{
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+}
+.intro {
+    text-align: center;
+}

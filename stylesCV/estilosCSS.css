@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    color: white;
+    padding: 30px;
+}
+nav ul {
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%); 
+}
+img {
+    width: auto;
+    height: auto;
+
+    object-fit: cover;
+    display: flex;
+
+}
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+.articulos {
+    width: 80%;
+    border-right: 3px solid rgb(15, 51, 117);
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.menu-secundario {
+    
+    width: 20%;
+    margin-top: 60px;
+}
+.menu-secundario a{
+    display: block;
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 2550px;
+    
+}
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #19293f;
+    color: white;
+    margin-top: 40px;
+
+}
+footer p {
+    text-align: center;
+    padding: 50px;
+}
+p {
+    font-family: 'Edu QLD Beginner', cursive;
+    padding: 30px;
+}
+h2 {
+    font-family: 'Edu QLD Beginner', cursive;
+    padding: 50px;
+}
+.menu-secundario a .link2 {
+    display: block;
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 250px;
+}

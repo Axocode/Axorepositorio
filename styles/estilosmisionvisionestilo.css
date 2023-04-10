@@ -12,6 +12,7 @@
 
 
 body{
+  background-color: #212529;
   font-family: 'open sans';
   position: absolute;
   width: 100%;
@@ -27,7 +28,7 @@ body{
 }
 
 .titulo{
-  color: #000000;
+  color: #ffffff;
   font-size: 35px;
   text-align: center;
 }
@@ -60,7 +61,7 @@ a::after {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #ec46c8;
+  background-color: #212529;
   transition: width 0.3s ease;
 }
 
@@ -103,7 +104,7 @@ a:hover::after {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #b189af;
+    background-color: #212529;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,6 +222,7 @@ header .introduccion-header{
 .capsula-acerca-de{
   display: flex;
   justify-content: space-evenly;
+  color: #fff;
 }
 
 .imagen-codigo{ 
@@ -234,12 +236,6 @@ header .introduccion-header{
   margin: auto;
   width: 30%;
   padding: 100px;
-}
-.unificar2,.imagen-codigo2,.texto-empresa{ 
-  
-}
-.unificar,.imagen-codigo,.texto-empresa{ 
-  
 }
 
 .texto-empresa h3{
@@ -274,7 +270,7 @@ footer{
   bottom: 0;
   left: 0;
   padding: 0.01rem 8%;
-  background-color: #0e0e0e;
+  background-color: #212529;
   display: flex;
   justify-content: center;
   align-items: center;

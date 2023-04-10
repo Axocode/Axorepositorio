@@ -12,6 +12,7 @@
 
 
 body{
+    background-color: #212529;
     font-family: 'open sans';
     position: absolute;
     width: 100%;
@@ -27,7 +28,7 @@ body{
 }
 
 .titulo{
-    color: #000000;
+    color: #ffffff;
     font-size: 35px;
     text-align: center;
 }
@@ -60,7 +61,7 @@ a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: #ec46c8;
+    background-color: #212529;
     transition: width 0.3s ease;
 }
 
@@ -219,6 +220,7 @@ header .introduccion-header{
 }
 
 .capsula-acerca-de{
+    color: white;
     display: flex;
     justify-content: space-evenly;
 }
@@ -231,8 +233,8 @@ header .introduccion-header{
 
 .imagen-naturaleza-2{
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 40%;
+    padding: 30px;
     
 }
 
@@ -267,7 +269,7 @@ footer{
     bottom: 0;
     left: 0;
     padding: 0.5rem 8%;
-    background-color: #0e0e0e;
+    background-color: #212529;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,6 +339,6 @@ footer{
     background:#000000 ;
   }
   body::-webkit-scrollbar-thumb{
-    background:#c07bc9;
+    background:#ffffff;
     border-radius: 5px;
   }
