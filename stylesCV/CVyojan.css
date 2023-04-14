@@ -10,8 +10,8 @@ html{
 
 /* SECCION INICIO */
 .inicio{
-    background: linear-gradient( #c127e0d0, rgba(0, 0, 0, 1)),
-    url("img/fondo.jpg");
+    background: linear-gradient( #c127e056, rgba(0, 0, 0, 1)),
+    url("../img/plantin2.jpeg");
     background-size: cover;
     background-position: center center;
     color: #fff;

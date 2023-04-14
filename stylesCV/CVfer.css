@@ -10,13 +10,12 @@ html{
 
 /* SECCION INICIO */
 .inicio{
-    background: linear-gradient( #000000d0, rgba(0, 0, 0, 0.8)),
-    url("img/fondo.jpg");
-    background-size: cover;
+    background: linear-gradient( #744effd0, rgba(0, 0, 0, 0.8)),
+    url("../img/plantin.jpeg");
     background-position: center center;
     color: #fff;
 }
-.inicio .contenido-seccion{
+.inicio .contenido-seccion{ 
     max-width: 1000px;
     margin: auto;
     text-align: center;
@@ -232,7 +231,7 @@ html{
         width: 0;
     }
     100% {
-        width: 10%;
+        width: 80%;
     }
 }
 
