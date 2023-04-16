@@ -10,8 +10,8 @@ html{
 
 /* SECCION INICIO */
 .inicio{
-    background: linear-gradient( #000000d0, rgba(0, 0, 0, 0.8)),
-    url("img/fondo.jpg");
+    background: linear-gradient( #00b0cfd0, rgba(0, 0, 0, 0.8)),
+    url("../img/bellasartes.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -232,7 +232,7 @@ html{
         width: 0;
     }
     100% {
-        width: 10%;
+        width: 90%;
     }
 }
 
@@ -241,7 +241,7 @@ html{
         width: 0;
     }
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -250,7 +250,7 @@ html{
         width: 0;
     }
     100% {
-        width: 70%;
+        width: 60%;
     }
 }
 
