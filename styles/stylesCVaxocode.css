@@ -1,0 +1,22 @@
+body{
+    background-color: #212529;
+}
+section{
+    display: flex;
+    width: 1300px;
+    height: 530px;
+  }
+  section img{
+    width: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    transform: scale(105%);
+    }
